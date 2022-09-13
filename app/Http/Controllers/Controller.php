@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public function show(){
-        return "Rohit accessing controller";
+    public function index(){
+        return view("login");
     }
 }

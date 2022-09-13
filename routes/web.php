@@ -16,7 +16,7 @@ use App\Http\Controllers\Controller;
 
 
 
-Route::get('/',[App\Http\Controllers\Controller::class,'show']);
+Route::get('/',[Controller::class,'index']);
 
 
 Route::get('/show',function(){
